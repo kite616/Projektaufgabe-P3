@@ -1,0 +1,22 @@
+{
+  "name": "projektaufgabe-p3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/dist/index.html",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.0",
+    "jshint": "^2.12.0",
+    "postcss": "^8.2.3",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2"
+  },
+  "scripts": {
+    "start:css": "postcss tailwind.css -o dist/theme.css -w",
+    "build:css": "postcss tailwind.css -o dist/theme.css --env production",
+    "build:tailwind": "tailwind build tailwind.css -o dist/theme.css",
+    "build:tailwindmin": "npx tailwindcss-cli@latest build tailwind.css -o ./dist/css/theme.css"
+  },
+  "devDependencies": {}
+}

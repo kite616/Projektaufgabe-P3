@@ -1,0 +1,1424 @@
+{
+    "automaton": [
+        {
+          "-zustand": "1",
+          "-zeichen": "B",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "B",
+          "-richtung": "R"
+        },
+        {
+          "-zustand": "1",
+          "-zeichen": "E",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "E",
+          "-richtung": "R"
+        },
+        {
+          "-zustand": "1",
+          "-zeichen": "P",
+          "-folgzustand": "2",
+          "-bzeichen": "p",
+          "-richtung": "R"
+        },
+        {
+          "-zustand": "1",
+          "-zeichen": "S",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "S",
+          "-richtung": "R"
+        },
+        {
+          "-zustand": "1",
+          "-zeichen": "T",
+          "-folgzustand": "2",
+          "-bzeichen": "t",
+          "-richtung": "R"
+        },
+        {
+          "-zustand": "1",
+          "-zeichen": "V",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "V",
+          "-richtung": "R"
+        },
+        {
+          "-zustand": "1",
+          "-zeichen": "X",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "X",
+          "-richtung": "R"
+        },
+        {
+          "-zustand": "1",
+          "-zeichen": "blank",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "blank",
+          "-richtung": "R"
+        },
+        {
+          "-zustand": "1",
+          "-zeichen": "p",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "p",
+          "-richtung": "R"
+        }m
+        {
+          "-zustand": "1",
+          "-zeichen": "t",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "t",
+          "-richtung": "R"
+        },
+        {
+          "-zustand": "10",
+          "-zeichen": "B",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "B",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "10",
+          "-zeichen": "E",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "E",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "10",
+          "-zeichen": "P",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "P",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "10",
+          "-zeichen": "S",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "S",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "10",
+          "-zeichen": "T",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "T",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "10",
+          "-zeichen": "V",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "V",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "10",
+          "-zeichen": "X",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "X",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "10",
+          "-zeichen": "blank",
+          "-folgzustand": "10",
+          "-bzeichen": "blank",
+          "-richtung": "L",
+          "-biegung": "0",
+          "-drehung": "90.0"
+        },
+        {
+          "-zustand": "10",
+          "-zeichen": "p",
+          "-folgzustand": "11",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "10",
+          "-zeichen": "t",
+          "-folgzustand": "13",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "11",
+          "-zeichen": "B",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "B",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "11",
+          "-zeichen": "E",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "E",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "11",
+          "-zeichen": "P",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "P",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "11",
+          "-zeichen": "S",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "S",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "11",
+          "-zeichen": "T",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "T",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "11",
+          "-zeichen": "V",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "V",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "11",
+          "-zeichen": "X",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "X",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "11",
+          "-zeichen": "blank",
+          "-folgzustand": "11",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "-90.0"
+        },
+        {
+          "-zustand": "11",
+          "-zeichen": "p",
+          "-folgzustand": "12",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "11",
+          "-zeichen": "t",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "t",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "12",
+          "-zeichen": "B",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "B",
+          "-richtung": "R",
+          "-biegung": "80",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "12",
+          "-zeichen": "E",
+          "-folgzustand": "akzeptierend",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "12",
+          "-zeichen": "P",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "P",
+          "-richtung": "R",
+          "-biegung": "80",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "12",
+          "-zeichen": "S",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "S",
+          "-richtung": "R",
+          "-biegung": "80",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "12",
+          "-zeichen": "T",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "T",
+          "-richtung": "R",
+          "-biegung": "80",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "12",
+          "-zeichen": "V",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "V",
+          "-richtung": "R",
+          "-biegung": "80",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "12",
+          "-zeichen": "X",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "X",
+          "-richtung": "R",
+          "-biegung": "80",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "12",
+          "-zeichen": "blank",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "80",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "12",
+          "-zeichen": "p",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "p",
+          "-richtung": "R",
+          "-biegung": "80",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "12",
+          "-zeichen": "t",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "t",
+          "-richtung": "R",
+          "-biegung": "80",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "13",
+          "-zeichen": "B",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "B",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "13",
+          "-zeichen": "E",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "E",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "13",
+          "-zeichen": "P",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "P",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "13",
+          "-zeichen": "S",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "S",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "13",
+          "-zeichen": "T",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "T",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "13",
+          "-zeichen": "V",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "V",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "13",
+          "-zeichen": "X",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "X",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "13",
+          "-zeichen": "blank",
+          "-folgzustand": "13",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0.0"
+        },
+        {
+          "-zustand": "13",
+          "-zeichen": "p",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "p",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "13",
+          "-zeichen": "t",
+          "-folgzustand": "12",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "2",
+          "-zeichen": "B",
+          "-folgzustand": "3",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "2",
+          "-zeichen": "E",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "E",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "2",
+          "-zeichen": "P",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "P",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "2",
+          "-zeichen": "S",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "S",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "2",
+          "-zeichen": "T",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "T",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "2",
+          "-zeichen": "V",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "V",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "2",
+          "-zeichen": "X",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "X",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "2",
+          "-zeichen": "blank",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "2",
+          "-zeichen": "p",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "p",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "2",
+          "-zeichen": "t",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "t",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "3",
+          "-zeichen": "B",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "B",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "3",
+          "-zeichen": "E",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "E",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "3",
+          "-zeichen": "P",
+          "-folgzustand": "6",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "3",
+          "-zeichen": "S",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "S",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "3",
+          "-zeichen": "T",
+          "-folgzustand": "4",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "3",
+          "-zeichen": "V",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "V",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "3",
+          "-zeichen": "X",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "X",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "3",
+          "-zeichen": "blank",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "3",
+          "-zeichen": "p",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "p",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "3",
+          "-zeichen": "t",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "t",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "4",
+          "-zeichen": "B",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "B",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "4",
+          "-zeichen": "E",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "E",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "4",
+          "-zeichen": "P",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "P",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "4",
+          "-zeichen": "S",
+          "-folgzustand": "4",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "-90.0"
+        },
+        {
+          "-zustand": "4",
+          "-zeichen": "T",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "T",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "4",
+          "-zeichen": "V",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "V",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "4",
+          "-zeichen": "X",
+          "-folgzustand": "5",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "4",
+          "-zeichen": "blank",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "4",
+          "-zeichen": "p",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "p",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "4",
+          "-zeichen": "t",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "t",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "5",
+          "-zeichen": "B",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "B",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "5",
+          "-zeichen": "E",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "E",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "5",
+          "-zeichen": "P",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "P",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "5",
+          "-zeichen": "S",
+          "-folgzustand": "8",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "5",
+          "-zeichen": "T",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "T",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "5",
+          "-zeichen": "V",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "V",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "5",
+          "-zeichen": "X",
+          "-folgzustand": "6",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "5",
+          "-zeichen": "blank",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "5",
+          "-zeichen": "p",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "p",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "5",
+          "-zeichen": "t",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "t",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "6",
+          "-zeichen": "B",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "B",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "6",
+          "-zeichen": "E",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "E",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "6",
+          "-zeichen": "P",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "P",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "6",
+          "-zeichen": "S",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "S",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "6",
+          "-zeichen": "T",
+          "-folgzustand": "6",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "90.0"
+        },
+        {
+          "-zustand": "6",
+          "-zeichen": "V",
+          "-folgzustand": "7",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "6",
+          "-zeichen": "X",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "X",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "6",
+          "-zeichen": "blank",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "6",
+          "-zeichen": "p",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "p",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "6",
+          "-zeichen": "t",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "t",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "7",
+          "-zeichen": "B",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "B",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "7",
+          "-zeichen": "E",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "E",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "7",
+          "-zeichen": "P",
+          "-folgzustand": "5",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "7",
+          "-zeichen": "S",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "S",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "7",
+          "-zeichen": "T",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "T",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "7",
+          "-zeichen": "V",
+          "-folgzustand": "8",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "7",
+          "-zeichen": "X",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "X",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "7",
+          "-zeichen": "blank",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "7",
+          "-zeichen": "p",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "p",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "7",
+          "-zeichen": "t",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "t",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "8",
+          "-zeichen": "B",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "B",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "8",
+          "-zeichen": "E",
+          "-folgzustand": "9",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "8",
+          "-zeichen": "P",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "P",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "8",
+          "-zeichen": "S",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "S",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "8",
+          "-zeichen": "T",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "T",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "8",
+          "-zeichen": "V",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "V",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "8",
+          "-zeichen": "X",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "X",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "8",
+          "-zeichen": "blank",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "8",
+          "-zeichen": "p",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "p",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "8",
+          "-zeichen": "t",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "t",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "9",
+          "-zeichen": "B",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "B",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "9",
+          "-zeichen": "E",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "E",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "9",
+          "-zeichen": "P",
+          "-folgzustand": "10",
+          "-bzeichen": "p",
+          "-richtung": "L",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "9",
+          "-zeichen": "S",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "S",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "9",
+          "-zeichen": "T",
+          "-folgzustand": "10",
+          "-bzeichen": "t",
+          "-richtung": "L",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "9",
+          "-zeichen": "V",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "V",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "9",
+          "-zeichen": "X",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "X",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "9",
+          "-zeichen": "blank",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "9",
+          "-zeichen": "p",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "p",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "9",
+          "-zeichen": "t",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "t",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "akzeptierend",
+          "-zeichen": "B",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "B",
+          "-richtung": "R",
+          "-biegung": "120",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "akzeptierend",
+          "-zeichen": "E",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "E",
+          "-richtung": "R",
+          "-biegung": "120",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "akzeptierend",
+          "-zeichen": "P",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "P",
+          "-richtung": "R",
+          "-biegung": "120",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "akzeptierend",
+          "-zeichen": "S",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "S",
+          "-richtung": "R",
+          "-biegung": "120",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "akzeptierend",
+          "-zeichen": "T",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "T",
+          "-richtung": "R",
+          "-biegung": "120",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "akzeptierend",
+          "-zeichen": "V",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "V",
+          "-richtung": "R",
+          "-biegung": "120",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "akzeptierend",
+          "-zeichen": "X",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "X",
+          "-richtung": "R",
+          "-biegung": "120",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "akzeptierend",
+          "-zeichen": "blank",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "120",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "akzeptierend",
+          "-zeichen": "p",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "p",
+          "-richtung": "R",
+          "-biegung": "120",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "akzeptierend",
+          "-zeichen": "t",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "t",
+          "-richtung": "R",
+          "-biegung": "120",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "start",
+          "-zeichen": "B",
+          "-folgzustand": "1",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "start",
+          "-zeichen": "E",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "E",
+          "-richtung": "R",
+          "-biegung": "-40",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "start",
+          "-zeichen": "P",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "P",
+          "-richtung": "R",
+          "-biegung": "-40",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "start",
+          "-zeichen": "S",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "S",
+          "-richtung": "R",
+          "-biegung": "-40",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "start",
+          "-zeichen": "T",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "T",
+          "-richtung": "R",
+          "-biegung": "-40",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "start",
+          "-zeichen": "V",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "V",
+          "-richtung": "R",
+          "-biegung": "-40",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "start",
+          "-zeichen": "X",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "X",
+          "-richtung": "R",
+          "-biegung": "-40",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "start",
+          "-zeichen": "blank",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "-40",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "start",
+          "-zeichen": "p",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "p",
+          "-richtung": "R",
+          "-biegung": "-40",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "start",
+          "-zeichen": "t",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "t",
+          "-richtung": "R",
+          "-biegung": "-40",
+          "-drehung": "0"
+        },
+        {
+          "-zustand": "verwerfend",
+          "-zeichen": "B",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "B",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0.0"
+        },
+        {
+          "-zustand": "verwerfend",
+          "-zeichen": "E",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "E",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0.0"
+        },
+        {
+          "-zustand": "verwerfend",
+          "-zeichen": "P",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "P",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0.0"
+        },
+        {
+          "-zustand": "verwerfend",
+          "-zeichen": "S",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "S",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0.0"
+        },
+        {
+          "-zustand": "verwerfend",
+          "-zeichen": "T",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "T",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0.0"
+        },
+        {
+          "-zustand": "verwerfend",
+          "-zeichen": "V",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "V",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0.0"
+        },
+        {
+          "-zustand": "verwerfend",
+          "-zeichen": "X",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "X",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0.0"
+        },
+        {
+          "-zustand": "verwerfend",
+          "-zeichen": "blank",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "blank",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0.0"
+        },
+        {
+          "-zustand": "verwerfend",
+          "-zeichen": "p",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "p",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0.0"
+        },
+        {
+          "-zustand": "verwerfend",
+          "-zeichen": "t",
+          "-folgzustand": "verwerfend",
+          "-bzeichen": "t",
+          "-richtung": "R",
+          "-biegung": "0",
+          "-drehung": "0.0"
+        }
+    ]
+  }

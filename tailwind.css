@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Fira Code';
+}
+
+h1 {
+    @apply text-2xl font-bold leading-7 text-gray-900;
+}
+
+h2 {
+    @apply mt-4 text-xl font-medium leading-6 text-gray-900;
+}
+
+h3 {
+    @apply mt-4 text-lg font-medium leading-6 text-gray-900;
+}
+
+hr {
+    @apply m-2
+}
+
+.noligatures {
+    font-variant-ligatures: none;
+}
+
+.ok {
+    @apply px-6 py-4 mb-4 text-white bg-green-500 border-0;
+}
+
+.error {
+    @apply px-6 py-4 mb-4 text-white bg-red-500 border-0;
+}
+
+table {
+    border-spacing: 0.25rem 0.5rem;
+    text-align: left;
+    border-width: 1px;
+}
+
+tr {
+    border: 1px;
+}
+
+td,
+th {
+    padding: 0.5rem;
+    margin: 0;
+}
+
+button {
+    transition: all .15s ease;
+}
