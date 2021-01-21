@@ -1,7 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1900" height="650"
 	viewBox="500 60 600 475" color-interpolation-filters="sRGB" fill="none" fill-rule="evenodd" font-size="12"
 	overflow="visible" stroke-linecap="square" stroke-miterlimit="3">
-	<style>
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css?family=Fira+Code');
+
 		.state {
 			fill: #fff;
 			stroke-width: 2.25

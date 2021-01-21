@@ -6,6 +6,10 @@ class Application {
 
     initialisation() {
         // String
+        document.getElementById('inputstring').addEventListener('change', event => {
+            console.log(document.getElementById('inputstring').value);
+            document.getElementById('inputstring').value = document.getElementById('inputstring').value;
+        });
         document.getElementById('validstring').addEventListener('click', event => {
             document.getElementById('inputstring').value = this.inputGenerator.getValidString();
         });
@@ -43,18 +47,18 @@ class Application {
 
         // for each state and symbol in the tape alphabet
         for(let i = 0; i <= 13; i++) { // states
-            automata.turingprogramm.forEach(element => {
+            automata.turingprogram.forEach(element => {
                 if(i === 0 && element[0] === i) {
-                    table += '<tr><td>s</td><td>'+element[1]+'</td><td>'+element[2]+'</td><td>'+element[3]+'</td><td>'+element[4]+'</td>';
+                    table += '<tr><td>s (start)</td><td>'+element[1]+'</td><td>'+element[2]+'</td><td>'+element[3]+'</td><td>'+element[4]+'</td>';
                 } else if(element[0] === i) {
                     table += '<tr><td>'+element[0]+'</td><td>'+element[1]+'</td><td>'+element[2]+'</td><td>'+element[3]+'</td><td>'+element[4]+'</td>';
                 }
             });
             automata.tapealphabet.forEach(symbol => { // symbols
-                automata.turingprogramm.forEach(element => {
+                automata.turingprogram.forEach(element => {
                     if(i === 0 && element[0] === i && element[1] !== symbol && doublecheck !== i+symbol+'abgelehnt') {
                         doublecheck = i+symbol+'abgelehnt';
-                        table += '<tr><td>s</td><td>'+symbol+'</td><td>abgelehnt</td><td>'+symbol+'</td><td>R</td>';
+                        table += '<tr><td>s (start)</td><td>'+symbol+'</td><td>abgelehnt</td><td>'+symbol+'</td><td>R</td>';
                     } else if(element[0] === i && element[1] !== symbol && doublecheck !== i+symbol+'abgelehnt') {
                         doublecheck = i+symbol+'abgelehnt';
                         table += '<tr><td>'+i+'</td><td>'+symbol+'</td><td>abgelehnt</td><td>'+symbol+'</td><td>R</td>';
@@ -64,7 +68,7 @@ class Application {
         }
 
         automata.tapealphabet.forEach(symbol => {
-            table += '<tr><td>a</td><td>'+symbol+'</td><td>abgelehnt</td><td>'+symbol+'</td><td>R</td>';
+            table += '<tr><td>a (akzeptiert)</td><td>'+symbol+'</td><td>abgelehnt</td><td>'+symbol+'</td><td>R</td>';
         });
         automata.tapealphabet.forEach(symbol => {
             table += '<tr><td>abgelehnt</td><td>'+symbol+'</td><td>abgelehnt</td><td>'+symbol+'</td><td>R</td>';

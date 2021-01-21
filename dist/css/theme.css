@@ -201,7 +201,8 @@ Correct the inability to style clickable types in iOS and Safari.
 */
 
 button,
-[type='button'] {
+[type='button'],
+[type='reset'] {
   -webkit-appearance: button;
 }
 
@@ -606,12 +607,12 @@ video {
   flex-wrap: wrap;
 }
 
-.items-center {
-  align-items: center;
+.items-start {
+  align-items: flex-start;
 }
 
-.items-stretch {
-  align-items: stretch;
+.items-center {
+  align-items: center;
 }
 
 .flex-1 {
@@ -922,7 +923,7 @@ hr {
 
 .ok {
   --tw-bg-opacity: 1;
-  background-color: rgba(16, 185, 129, var(--tw-bg-opacity));
+  background-color: rgba(5, 150, 105, var(--tw-bg-opacity));
   border-width: 0px;
   margin-bottom: 1rem;
   padding-top: 1rem;
@@ -935,7 +936,7 @@ hr {
 
 .error {
   --tw-bg-opacity: 1;
-  background-color: rgba(239, 68, 68, var(--tw-bg-opacity));
+  background-color: rgba(220, 38, 38, var(--tw-bg-opacity));
   border-width: 0px;
   margin-bottom: 1rem;
   padding-top: 1rem;
@@ -987,6 +988,10 @@ button {
 }
 
 @media (min-width: 768px) {
+  .md\:items-stretch {
+    align-items: stretch;
+  }
+
   .md\:mt-0 {
     margin-top: 0px;
   }
@@ -1015,10 +1020,6 @@ button {
 
   .lg\:pr-0 {
     padding-right: 0px;
-  }
-
-  .lg\:w-1\/2 {
-    width: 50%;
   }
 
   .lg\:w-1\/5 {
