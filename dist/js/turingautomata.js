@@ -183,12 +183,8 @@ class TuringAutomata {
     highlightTransition() {
         let currentstate = this.steps[this.currentstep][2];
         let nextstate = this.steps[this.currentstep][4];
-
         let path = this.svg.getElementById('t-'+currentstate+'-'+nextstate);
         let text = this.svg.getElementById('t-'+currentstate+'-'+nextstate+'-text');
-
-        console.log(path);
-        console.log(text);
 
         if(this.steps[this.currentstep][4] !== 'abgelehnt') {
             try {
